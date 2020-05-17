@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="restAssuredTest_BDD.Demo1_Get_Request">
+        <methods>
+          <include name="testParametersAndHeaders"/>
+          <include name="testPost"/>
+          <include name="testMultipleContentInResponse"/>
+          <include name="testSingleContentInResponse"/>
+          <include name="testLoggingResponse"/>
+          <include name="deleteEmployeeRecord"/>
+        </methods>
+      </class> <!-- restAssuredTest_BDD.Demo1_Get_Request -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
